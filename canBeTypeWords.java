@@ -11,7 +11,7 @@ class Solution {
                 count++;
             } 
         }
-        return count; 
+        return count;  
     }
     private boolean valid(String str,String brokenLetter){
         String[] brokLet = brokenLetter.split("");
