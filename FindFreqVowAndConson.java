@@ -6,7 +6,7 @@ class Solution {
             if("aeiou".contains(Character.toString(ch))){
                 vowCounter(ch,vowFreq);
             }else{
-                conCounter(ch,conFreq);
+                conCounter(ch,conFreq); 
             }
         }
         int vowMax = Arrays.stream(vowFreq).max().getAsInt();
