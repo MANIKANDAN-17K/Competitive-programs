@@ -9,7 +9,7 @@ class Solution {
         for(String str : letters){
             if(valid(str,brokenLetters)){ 
                 count++;
-            }
+            } 
         }
         return count;
     }
