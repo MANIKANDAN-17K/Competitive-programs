@@ -11,7 +11,7 @@ class Spreadsheet {
     public void resetCell(String cell) {
         mpp.put(cell,0);
     }
-    
+     
     public int getValue(String formula) {
         formula = formula.substring(1);
         for(int i = 0;i<formula.length();i++){
