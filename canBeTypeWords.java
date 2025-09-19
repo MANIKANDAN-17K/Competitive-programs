@@ -4,7 +4,7 @@ class Solution {
         int count = 0;
         int len = brokenLetters.length();
         if(len == 0){
-            return letters.length;
+            return letters.length; 
         }
         for(String str : letters){
             if(valid(str,brokenLetters)){ 
