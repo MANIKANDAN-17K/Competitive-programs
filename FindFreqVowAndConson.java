@@ -12,7 +12,7 @@ class Solution {
         int vowMax = Arrays.stream(vowFreq).max().getAsInt();
         int conMax = Arrays.stream(conFreq).max().getAsInt();;
     return vowMax + conMax;
-    }
+    } 
     private void vowCounter(char ch,int[] vowFreq){
         vowFreq[ch - 'a']++;
     }
