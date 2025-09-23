@@ -19,4 +19,4 @@ class Solution {
     private void conCounter(char ch,int[] conFreq){
         conFreq[ch - 'a']++;
     }
-}
+} 
