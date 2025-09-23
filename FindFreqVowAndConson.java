@@ -8,7 +8,7 @@ class Solution {
             }else{
                 conCounter(ch,conFreq); 
             }
-        }
+        } 
         int vowMax = Arrays.stream(vowFreq).max().getAsInt();
         int conMax = Arrays.stream(conFreq).max().getAsInt();;
     return vowMax + conMax;
