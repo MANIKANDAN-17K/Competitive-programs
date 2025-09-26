@@ -5,7 +5,7 @@ class Solution {
         int len = brokenLetters.length();
         if(len == 0){
             return letters.length; 
-        }
+        } 
         for(String str : letters){
             if(valid(str,brokenLetters)){ 
                 count++;
