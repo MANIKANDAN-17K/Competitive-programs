@@ -7,7 +7,7 @@ class Solution {
             int l = 0,r = i -1;
             while(l < r ){
                 if(nums[l] + nums[r] > nums[i]){
-                    count += r - l;
+                    count += r - l; 
                     r--;
                 }else{
                     l++;
