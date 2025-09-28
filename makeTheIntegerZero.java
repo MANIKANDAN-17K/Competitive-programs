@@ -6,7 +6,7 @@ class Solution {
             if(target < 0) break;
             if(Long.bitCount(target) <= k && k<=target) return (int) k;
        }
-       return -1;
+       return -1; 
     }
 }
  
