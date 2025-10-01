@@ -4,7 +4,7 @@ class FoodRatings {
     private HashMap<String,TreeSet<String>> Cuisines = new HashMap<>();
     public FoodRatings(String[] foods, String[] cuisines, int[] ratings) {
        for(int i = 0 ;i< foods.length;i++){
-            FoodToCuisines.put(foods[i],cuisines[i]);
+            FoodToCuisines.put(foods[i],cuisines[i]); 
             FoodToRating.put(foods[i],ratings[i]); 
        }
        for(int i = 0 ;i<foods.length;i++){
