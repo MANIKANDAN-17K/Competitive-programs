@@ -1,7 +1,7 @@
 class Solution {
     public List<Integer> replaceNonCoprimes(int[] nums) {
     int n = nums.length;
-    int[] stack = new int[n];
+    int[] stack = new int[n]; 
     int top = -1;
     for(int num : nums){
         while(top != -1){
