@@ -7,7 +7,7 @@ class Solution {
         while(top != -1){
             int x = gcd (stack[top],num); 
             if(x == 1) break;
-            num *= stack[top--]/x;
+            num *= stack[top--]/x; 
         } 
         stack[++top] = num;
     }
