@@ -8,7 +8,7 @@ class Solution {
             int x = gcd (stack[top],num); 
             if(x == 1) break;
             num *= stack[top--]/x;
-        }
+        } 
         stack[++top] = num;
     }
     List<Integer> res = new ArrayList<>();
