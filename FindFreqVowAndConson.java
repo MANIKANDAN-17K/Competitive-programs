@@ -2,7 +2,7 @@ class Solution {
     public int maxFreqSum(String s) {
         int[] vowFreq = new int[26];
         int[] conFreq = new int[26];
-        for(char ch : s.toCharArray()){
+        for(char ch : s.toCharArray()){ 
             if("aeiou".contains(Character.toString(ch))){
                 vowCounter(ch,vowFreq);
             }else{
