@@ -3,7 +3,7 @@ class Solution {
         int[] vowFreq = new int[26]; 
         int[] conFreq = new int[26];
         for(char ch : s.toCharArray()){ 
-            if("aeiou".contains(Character.toString(ch))){
+            if("aeiou".contains(Character.toString(ch))){ 
                 vowCounter(ch,vowFreq);
             }else{
                 conCounter(ch,conFreq);  
