@@ -6,7 +6,7 @@ class Solution {
             char[] a = words[i].toCharArray(),b = ans.get(ans.size() - 1).toCharArray();
             Arrays.sort(a);
             Arrays.sort(b);
-            if(!Arrays.equals(a,b)){
+            if(!Arrays.equals(a,b)){ 
                 ans.add(words[i]);
             }
         
